@@ -1,7 +1,7 @@
 import { CleanWebpackPlugin } from 'clean-webpack-plugin';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
-import  MiniCssExtractPlugin from 'mini-css-extract-plugin';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import * as path from 'path';
 import { Configuration } from 'webpack';
 
@@ -40,7 +40,7 @@ const config: Configuration & Record<string, any> = {
             options: {},
           },
           {
-            loader: "css-loader",
+            loader: 'css-loader',
             options: {
               url: false,
             },
