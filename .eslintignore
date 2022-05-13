@@ -1,0 +1,6 @@
+*.css
+*.svg
+*.test.ts
+*.test.tsx
+postcss.config.js
+.prettierignore
