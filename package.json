@@ -10,6 +10,8 @@
     "serve": "webpack serve --mode=development --progress",
     "build": "webpack",
     "build:prod": "webpack --config webpack.config.prod.ts",
+    "lint": "eslint --ext .tsx --ext .ts src/",
+    "prettier": "npx prettier --write .",
     "prepare": "husky install"
   },
   "dependencies": {},
