@@ -46,12 +46,9 @@
         "no-new-wrappers": "error",
         "no-throw-literal": "error",
         "import/no-unresolved": "off",
-        "simple-import-sort/exports": "error",
+        "simple-import-sort/exports": "off",
         "simple-import-sort/imports": [
-          "error",
-          {
-            "groups": [["^\\u0000"], ["^@?(?!app)\\w"], ["^@app?\\w"], ["^[^.]"], ["^\\."]]
-          }
+          "off"
         ],
         "sort-imports": "off",
         "import/first": "error",

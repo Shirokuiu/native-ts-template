@@ -1,2 +1,1 @@
-import './style.scss';
-import './app/index';
+import './assets/styles/index.scss';
