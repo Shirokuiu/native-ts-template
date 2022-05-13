@@ -18,7 +18,7 @@ yarn install
 yarn run serve
 ```
 
-## Сборка приложения 
+## Сборка приложения
 
 Для сборки приложения запустить комманду:
 
@@ -33,12 +33,12 @@ yarn run build:prod
 ```
 
 В результате билда будет 3 файла:
+
 - index.html
 - bundle.js
 - style.css
 
 И папка assets, которая будет содержать все необходимые файлы
-
 
 ## Добавление сторонних библиотек
 
@@ -46,5 +46,4 @@ yarn run build:prod
 
 ```shell script
 yarn add <lib-name>
-``` 
-
+```

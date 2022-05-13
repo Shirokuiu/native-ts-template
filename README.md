@@ -1,10 +1,13 @@
 ## Support
+
 Development:
+
 - Live reload
 - Typescript
 - Scss
 
 Linting:
+
 - Eslint,
 - Husky,
 - Lint staged
@@ -23,7 +26,7 @@ For development, you can use the command that runs webpack dev server:
 npm run serve
 ```
 
-## Build 
+## Build
 
 For build your application, run command:
 
@@ -51,7 +54,7 @@ For add libraries you can use command:
 
 ```shell script
 npm add <lib-name>
-``` 
+```
 
 ## Add polyfills
 
@@ -59,10 +62,10 @@ For add polyfills you can use [core-js](https://github.com/zloirock/core-js):
 
 ```shell script
 npm add core-js
-``` 
+```
 
 IE10 and IE11 requires the following for NgClass support on SVG elements
 
 ```shell script
 npm add classlist.js
-``` 
+```
