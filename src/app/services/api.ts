@@ -1,5 +1,6 @@
 import axios, { AxiosInstance, AxiosRequestConfig } from 'axios';
-import { APIErrorCode, BACKEND_URL, REQUEST_TIMEOUT } from 'src/services/constants';
+
+import { APIErrorCode, BACKEND_URL, REQUEST_TIMEOUT } from './constants';
 
 export const createAPI = (): AxiosInstance => {
   const api = axios.create({
