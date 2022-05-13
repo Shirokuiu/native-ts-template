@@ -1,19 +1,18 @@
-# Webpack ts starter
+## Support
+Development:
+- Live reload
+- Typescript
+- Scss
 
-Starter for development typescript application with webpack. [Russian](./docs/ru.md)
-
-**NOTE: Use Nx [WEB](https://nx.dev/web/overview) instead of webpack-ts-starter.** Read more on [habr](https://habr.com/ru/post/652453/).
-
-## Clone starter
-
-To get started, you should run command:
+Linting:
+- Eslint,
+- Husky,
+- Lint staged
 
 ## Install dependencies
 
-After clone project, you should install dependencies:
-
 ```shell script
-yarn install
+npm install
 ```
 
 ## Development
@@ -21,7 +20,7 @@ yarn install
 For development, you can use the command that runs webpack dev server:
 
 ```shell script
-yarn run serve
+npm run serve
 ```
 
 ## Build 
@@ -29,13 +28,13 @@ yarn run serve
 For build your application, run command:
 
 ```shell script
-yarn run build
+npm run build
 ```
 
 For build your application on production, run command:
 
 ```shell script
-yarn run build:prod
+npm run build:prod
 ```
 
 After buld, 3 files will be generated in the dist folder:
@@ -51,7 +50,7 @@ The `assets` folder, which will contain all the necessary files.
 For add libraries you can use command:
 
 ```shell script
-yarn add <lib-name>
+npm add <lib-name>
 ``` 
 
 ## Add polyfills
@@ -59,11 +58,11 @@ yarn add <lib-name>
 For add polyfills you can use [core-js](https://github.com/zloirock/core-js):
 
 ```shell script
-yarn add core-js
+npm add core-js
 ``` 
 
 IE10 and IE11 requires the following for NgClass support on SVG elements
 
 ```shell script
-yarn add classlist.js
+npm add classlist.js
 ``` 
