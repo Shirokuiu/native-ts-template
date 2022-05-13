@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "serve": "webpack serve --mode=development --progress",
+    "build": "webpack",
+    "build:prod": "webpack --config webpack.config.prod.ts",
+    "prepare": "husky install"
+  },
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^17.0.21",
@@ -44,15 +53,6 @@
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.7.4",
     "webpack-merge": "^5.8.0"
-  },
-  "scripts": {
-    "serve": "webpack serve --mode=development --progress",
-    "build": "webpack",
-    "build:prod": "webpack --config webpack.config.prod.ts",
-    "prepare": "husky install"
-  },
-  "engines": {
-    "node": ">=16.0.0"
   },
   "lint-staged": {
     "*.ts": "eslint --fix"
